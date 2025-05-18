@@ -13,6 +13,8 @@ document.querySelector(".box").style.backgroundColor = "brown";
 
 //document.querySelectorAll = returns ALL THE ELEMENTS that matches the css selectors you use(returns a HTML COLLECTION consisting of all the elements that matches the selector we give. Also we need to use "FOR" loop if we want to access all the elemnents in the nodelist)
 
+console.log(document.querySelectorAll(".box"));
+
 document.querySelectorAll(".box").forEach((e) => {
     e.style.color = "yellow";
 });
